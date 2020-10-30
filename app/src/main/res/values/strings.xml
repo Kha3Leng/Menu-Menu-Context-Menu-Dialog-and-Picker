@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="droid_cafe">Droid Cafe</string>
+    <string name="donuts_are_glazed_and_sprinkled_with_candy">Donuts are glazed and \nsprinkled with candy.</string>
+    <string name="ice_cream_des">Ice cream sandwiches have chocolate wafers and \nvanilla filling.</string>
+    <string name="froyo_des">FroYo is premium self-serve \nfrozen yogurt.</string>
+
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="name_label">Name</string>
+    <string name="enter_name">enter name</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter address</string>
+    <string name="phone">Phone</string>
+    <string name="phone_label">enter phone number</string>
+    <string name="note">Note</string>
+    <string name="enter_note">Enter note</string>
+    <string name="same_day">Same day Messenger Service</string>
+    <string name="next_day_ground_delivery">NExt day ground delivery</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="choose_delivery_options">Choose Delivery Options</string>
+    <string name="cntact">Contact</string>
+    <string name="favorites">Favorites</string>
+    <string name="status">Status</string>
+    <string name="select_order">You select Order menu.</string>
+    <string name="select_contact">You select contact menu.</string>
+
+    <string-array name="ohh">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

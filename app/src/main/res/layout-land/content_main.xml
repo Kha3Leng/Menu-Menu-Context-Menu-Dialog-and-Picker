@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/droid_cafe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/donut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/donuts_are_glazed_and_sprinkled_with_candy"
+        android:onClick="showDonut"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/donut_circle"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <ImageView
+        android:id="@+id/froyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/froyo_des"
+        android:onClick="showFroyo"
+        app:layout_constraintStart_toEndOf="@+id/donut"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/froyo_circle" />
+
+    <ImageView
+        android:id="@+id/icecream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/ice_cream_des"
+        android:onClick="showIce"
+        app:layout_constraintStart_toEndOf="@+id/froyo"
+        app:layout_constraintTop_toTopOf="@+id/donut"
+        app:srcCompat="@drawable/icecream_circle" />
+
+    <TextView
+        android:id="@+id/donut_label"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal|center_vertical|fill_vertical"
+        android:text="@string/donuts_are_glazed_and_sprinkled_with_candy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donut" />
+
+    <TextView
+        android:id="@+id/froyo_label"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal|center_vertical|fill_vertical"
+        android:text="@string/froyo_des"
+        app:layout_constraintStart_toEndOf="@+id/donut_label"
+        app:layout_constraintTop_toBottomOf="@+id/froyo" />
+
+    <TextView
+        android:id="@+id/ice_label"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal|center_vertical|fill_vertical"
+        android:text="@string/ice_cream_des"
+        app:layout_constraintStart_toEndOf="@+id/froyo_label"
+        app:layout_constraintTop_toBottomOf="@+id/icecream" />
+</androidx.constraintlayout.widget.ConstraintLayout>
